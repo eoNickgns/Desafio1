@@ -19,8 +19,8 @@ public class Main {
 		quantidade = sc.nextInt();
 		valortotal = preco * quantidade;
 		System.out.println("O produto que você está prestes a comprar é " + produto);
-		System.out.printf("O preço unitário do produto é de %.2f%n", preco);
 		System.out.printf("Você vai comprar %d%n", quantidade);
+		System.out.printf("O preço unitário do produto é de %.2f%n", preco);
 		System.out.printf("O valor total é de %.2f", valortotal);
 
 		sc.close();
